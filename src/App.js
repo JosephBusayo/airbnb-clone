@@ -8,6 +8,7 @@ import dataItems from './data'
 
 
 function App() {
+  //looping over every data using .map
   const navIcons = NavData.map(data => {
     return <Navbar 
               img={data.img}
@@ -22,14 +23,17 @@ function App() {
             /> 
   })
 
+
   return (
     <div className="App">
+        <div className="header-container">
         <Header />
+        </div>
 
         <div className="navbar">
         {navIcons}
         </div>
-        
+          
         <div className="main-section">
           {mainData}
         </div>

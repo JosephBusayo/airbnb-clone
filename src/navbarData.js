@@ -1,47 +1,47 @@
 export default[
     {
-        img : "globe-icon.png",
+        img : "a_frames.jpg",
+        desc : "A frames"
+    },
+    {
+        img : "amazing_pool.jpg",
+        desc : "Amazing pool"
+    },
+    {
+        img : "artic.jpg",
+        desc : "Artic"
+    },
+    {
+        img : "beach.jpg",
+        desc : "Beach"
+    },
+    {
+        img : "design.jpg",
+        desc : "Design"
+    },
+    {
+        img : "islands.jpg",
         desc : "Islands"
     },
     {
-        img : "globe-icon.png",
-        desc : "Islands"
+        img : "lakefront.jpg",
+        desc : "Lakefront"
     },
     {
-        img : "globe-icon.png",
-        desc : "Islands"
+        img : "natinal_park.jpg",
+        desc : "National Park"
     },
     {
-        img : "globe-icon.png",
-        desc : "Islands"
+        img : "omg.jpg",
+        desc : "OMG"
     },
     {
-        img : "globe-icon.png",
-        desc : "Islands"
+        img : "surfing.jpg",
+        desc : "Surffing"
     },
     {
-        img : "globe-icon.png",
-        desc : "Islands"
-    },
-    {
-        img : "globe-icon.png",
-        desc : "Islands"
-    },
-    {
-        img : "globe-icon.png",
-        desc : "Islands"
-    },
-    {
-        img : "globe-icon.png",
-        desc : "Islands"
-    },
-    {
-        img : "globe-icon.png",
-        desc : "Islands"
-    },
-    {
-        img : "globe-icon.png",
-        desc : "Islands"
+        img : "tiny_homes.jpg",
+        desc : "Tiny homes"
     },
     {
         img : "globe-icon.png",

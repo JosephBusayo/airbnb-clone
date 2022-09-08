@@ -4,9 +4,10 @@ export default function Navbar(props){
     return(
         <nav>
             <button>
-                <img src={`../images/${props.img}`} className="header-icon" alt="icon"/>
+                <img src={`../images/${props.img}`} className="navbar-icon" alt="icon"/>
             </button> <br />
-            <p> {props.text}</p>
+            
+            <p className="navbar-text"> {props.text}</p>
         </nav>
     )
 }
