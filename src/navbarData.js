@@ -51,4 +51,21 @@ export default[
         img : "globe-icon.png",
         desc : "Islands"
     },
+    {
+        img : "omg.jpg",
+        desc : "OMG"
+    },
+    {
+        img : "omg.jpg",
+        desc : "OMG"
+    },
+    {
+        img : "omg.jpg",
+        desc : "OMG"
+    },
+    {
+        img : "omg.jpg",
+        desc : "OMG"
+    },
+ 
 ]

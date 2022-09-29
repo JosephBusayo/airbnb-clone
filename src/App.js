@@ -25,19 +25,21 @@ function App() {
 
 
   return (
-    <div className="App">
-        <div className="header-container">
-        <Header />
-        </div>
-
-        <div className="navbar">
-        {navIcons}
-        </div>
+    <section className="App">
+        <section className="header-nav-wrapper">
+          <Header />
           
+          <div className="navbar">
+          {navIcons}
+          </div>
+        </section>
+        
+
         <div className="main-section">
           {mainData}
         </div>
-    </div>
+
+    </section>
   );
 }
 export default App;

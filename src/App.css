@@ -1,8 +1,11 @@
-body, html{
-  margin: 0;
+*{
+  margin : 0;
   padding: 0;
-  width: 100vw;
-  height: 100%;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  min-height: 100%;
 }
 button{
   border: none;
@@ -11,22 +14,26 @@ button{
 }
 
 /*  HEADER */
-.header-container{
-  padding: 0px 80px 0px 80px;
-
+.header-nav-wrapper{
+  position: sticky;
+  background-color: white;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding-bottom: 5px;
 }
 .header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 80px 20px 80px;
   border: 1px solid lightgrey;
 }
-
 .header-icon{
   width: 15px;
 }
-
 .logo{
   width: 150px;
 }
@@ -53,20 +60,24 @@ button{
 
 /* NAVBAR */
 .navbar{
-  flex: 0 0 auto;
   display: flex;
-  flex-direction: row;
   text-align: center;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 0 30px 0;
+  margin: 30px auto;
   padding: 0 80px 0 80px;
 
-  overflow-x: auto;
-  white-space: nowrap;
-  
+  overflow-x: scroll;
+  -ms-overflow-style: none; /*hide scrollbar IE */
+  scrollbar-width: none;  /*hide scrollbar firefox */
 }
-
+.navbar::-webkit-scrollbar{ 
+  display: none; /*hide scrollbar chrome and safari */
+}
+.nav{
+  white-space: nowrap;
+  margin: 0 20px;
+}
 .navbar-icon{
   width: 25px;
 }
@@ -82,20 +93,21 @@ button{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 80px 0 80px;
+  margin: 0 80px 0 80px;
+  gap: 20px;
 }
 .card{
   position: relative;
 }
 .card-image{
-  width: 300px;
-  height:310px;
-  border-radius: 3%
+  width: clamp(280px, 21vw, 320px);
+  height: clamp(280px, 21vh, 320px);
+  border-radius: 5%;
 }
 
 .card-like-btn{
   position: absolute;
-  top: 6px;
+  top: 12px;
   right: 6px;
   width: 30px;
 }
@@ -103,11 +115,8 @@ button{
 
 
 /* RESPONSIVE STYLES */
-@media screen and (max-width: 1100px) {
-  .card-image{
-    width: 230px;
-    height:280px;
-  }
+@media screen and (max-width: 1240px) {
+ 
   .navbar-icon{
     width: 20px;
   }
@@ -116,27 +125,42 @@ button{
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 740px) {
   .main-section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 80px 0 80px;
   }
 
-  .card-image{
-    width: 500px;
-    height:520px;
-  }
   .logo, .header-text{
     display: none;
   }
   .header{
     display: flex;
-    justify-content:center
+    justify-content:center;
   }
   .header-btn-container{
     width: 100vw;
     text-align: center
+  }
+  .navbar{
+    padding: 0;
+  }
+
+  .navbar-icon{
+    width: 30px;
+  }
+  .navbar-text{
+    font-size: 1.5rem
+  }
+  .main-section{
+    margin: 0;
+  }
+  .card-image{
+    width: 75vw;
+    height: 40vh;
+  }
+  p, h3{
+    font-size: 1.75rem;
   }
 }
