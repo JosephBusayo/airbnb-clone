@@ -146,12 +146,11 @@ button{
   .navbar{
     padding: 0;
   }
-
   .navbar-icon{
-    width: 30px;
+    width: 20px;
   }
   .navbar-text{
-    font-size: 1.5rem
+    font-size: 0.7rem
   }
   .main-section{
     margin: 0;
@@ -160,7 +159,11 @@ button{
     width: 75vw;
     height: 40vh;
   }
+ .card-info{
+  display: flex;
+  justify-content: space-between;
+ } 
   p, h3{
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
 }

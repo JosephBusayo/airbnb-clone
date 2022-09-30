@@ -16,9 +16,15 @@ export default function Main(props){
         <main className="card">
             <img onClick={toggleFavorite} className="card-like-btn" src={choice_icon} alt="like-icon" />
             <img src={props.data.img} className="card-image"/>
-            <h3><strong>{props.data.title}</strong></h3> <span></span>
-            <p>{props.data.desc}</p>
-            <p>{props.data.price}</p>
+            <div className="card-info">
+                <div>
+                    <h3><strong>{props.data.title}</strong></h3>
+                    <p>{props.data.desc}</p>
+                    <p>{props.data.price}</p>
+                </div>
+
+                <div> <p>4.22</p></div>
+            </div>
         </main>
     )
 } 
