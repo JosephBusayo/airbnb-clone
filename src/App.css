@@ -12,6 +12,9 @@ button{
   outline: none;
   background: transparent;
 }
+img{
+  display: block;
+}
 
 /*  HEADER */
 .header-nav-wrapper{
@@ -32,13 +35,13 @@ button{
   border: 1px solid lightgrey;
 }
 .header-icon{
-  width: 15px;
+  width: 20px;
 }
 .logo{
   width: 150px;
 }
 .search-icon{
-  width:12px;
+  width:15px;
   padding: 0px;
   border-radius:50%;
   background-color: red;
@@ -48,14 +51,28 @@ button{
   border-radius: 25px;
   border: 1px solid lightgrey;
   box-shadow: 0 10px 50px rgb(230, 230, 230);
+
+  display: flex;
+  white-space: nowrap;
 }
 .header-btn{
   border: none;
   border-right: 1px solid black;
   background-color: white;
+  padding: 0 12px;
+}
+.header-text{
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.header-text button{
+  font-weight: bold;
 }
 .no-right-border{
   border-right:none;
+  display: flex;
+
 }
 
 /* NAVBAR */
@@ -94,7 +111,8 @@ button{
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 80px 0 80px;
-  gap: 20px;
+  column-gap: 20px;
+  row-gap: 40px
 }
 .card{
   position: relative;
@@ -111,7 +129,11 @@ button{
   right: 6px;
   width: 30px;
 }
-
+.card-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+} 
 
 
 /* RESPONSIVE STYLES */
@@ -120,7 +142,14 @@ button{
   .navbar-icon{
     width: 20px;
   }
-  p{
+ .main-section{
+  gap: 5px;
+  margin: 0 10px;
+ }
+ .card-image{
+  width: 230px;
+ }
+ p{
     font-size: 15px;
   }
 }
@@ -156,13 +185,10 @@ button{
     margin: 0;
   }
   .card-image{
-    width: 75vw;
+    width: 80vw;
     height: 40vh;
   }
- .card-info{
-  display: flex;
-  justify-content: space-between;
- } 
+  
   p, h3{
     font-size: 1rem;
   }

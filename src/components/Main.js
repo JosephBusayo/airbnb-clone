@@ -19,7 +19,8 @@ export default function Main(props){
             <div className="card-info">
                 <div>
                     <h3><strong>{props.data.title}</strong></h3>
-                    <p>{props.data.desc}</p>
+                    <p>{props.data.host}</p>
+                    <p>{props.data.date}</p>
                     <p>{props.data.price}</p>
                 </div>
 

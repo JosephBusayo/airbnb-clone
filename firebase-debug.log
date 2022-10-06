@@ -1,0 +1,44 @@
+[debug] [2022-10-06T06:08:53.025Z] ----------------------------------------------------------------------
+[debug] [2022-10-06T06:08:53.030Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-06T06:08:53.032Z] CLI Version:   11.11.0
+[debug] [2022-10-06T06:08:53.032Z] Platform:      win32
+[debug] [2022-10-06T06:08:53.033Z] Node Version:  v16.15.0
+[debug] [2022-10-06T06:08:53.041Z] Time:          Thu Oct 06 2022 07:08:53 GMT+0100 (West Africa Standard Time)
+[debug] [2022-10-06T06:08:53.042Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-06T06:08:53.215Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-06T06:08:53.216Z] > authorizing via signed-in user (josephbusayojayeoba@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\USER\Desktop\Projects\airbnb-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-06T06:09:23.564Z] Using project from CLI flag: airbnb-clone-659c5
+[debug] [2022-10-06T06:09:23.567Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-clone-659c5 [none]
+[debug] [2022-10-06T06:09:24.490Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-clone-659c5 200
+[debug] [2022-10-06T06:09:24.491Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-clone-659c5 {"projectId":"airbnb-clone-659c5","projectNumber":"684377642625","displayName":"airbnb-clone","name":"projects/airbnb-clone-659c5","resources":{"hostingSite":"airbnb-clone-659c5"},"state":"ACTIVE","etag":"1_6dc26b2c-674b-4d24-8c7e-7e18060748d6"}
+[info] i  Using project airbnb-clone-659c5 (airbnb-clone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
