@@ -22,7 +22,7 @@ const mainData = [
     {
         id: 3,
         title:"Murter, Croatia",
-        category: "beach",
+        category: "",
         img:"https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/3_beach.webp?alt=media&token=1eda4a5f-56de-45c5-8928-4d3a010147d3",
           description : "4,323 kilometers away",date :"Oct 16 – 23",
         price:"159 CHF"
@@ -31,7 +31,7 @@ const mainData = [
 {
         id: 4,
         title : "Vis, Croatia",
-        category: "beach",
+        category: "",
         img:"https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/4_beach.webp?alt=media&token=3c5c31a6-aa40-45b7-ac10-1048ec064c1e",
     description : "4,262 kilometers away", date :" Jul 13 – 19",
     price:"1,520 CHF"
@@ -175,7 +175,7 @@ const mainData = [
     },
 {
         id: 19,
-        category: "breakfast",
+        category: "aframes",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/1_breakfast.webp?alt=media&token=2c7c5213-0ca6-4adf-bb76-db4ba0710a05",
     title : "Badachro, UK",
     description :"5,754 kilometers away", date :" Nov 12 – 17",
@@ -184,7 +184,7 @@ const mainData = [
 },
     {
         id: 20,
-        category: "breakfast",
+        category: "aframe",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/2_breakfast.webp?alt=media&token=4c75c797-2ae5-4b3e-9b64-0b8f3ff9e907",
         title : "Sali, Croatia, Croatia",
         description : "4,316 kilometers away", date :" Sep 19 – 24",
@@ -193,7 +193,7 @@ const mainData = [
     },
     {
         id: 21,
-        category: "breakfast",
+        category: "aframe",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/3_breakfast.webp?alt=media&token=f162a2b6-755c-4170-9d55-6adb26cd13f1",
         title : "Murter, Croatia",
         description : "4,323 kilometers away", date :" Oct 16 – 23",
@@ -205,7 +205,7 @@ const mainData = [
 
     {
         id: 22,
-        category: "breakfast",
+        category: "aframe",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/4_breakfast.webp?alt=media&token=30e9991d-0dc6-4c5c-892b-326c81f71678",
         title : "Vis, Croatia",
         description : "4,262 kilometers away", date :" Jul 13 – 19",
@@ -213,7 +213,7 @@ const mainData = [
     },
     {
         id: 23,
-        category: "breakfast",
+        category: "aframe",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/5_breakfast.webp?alt=media&token=18e4654f-20f2-434b-8573-7c00d7d4620c",
         title : "Angra dos Reis, Brazil",
         description : "6,135 kilometers away", date :" Jul 22 – 27",
@@ -222,7 +222,7 @@ const mainData = [
     },
     {
         id: 24,
-        category: "breakfast",
+        category: "aframe",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/5_breakfast.webp?alt=media&token=18e4654f-20f2-434b-8573-7c00d7d4620c",
         title : "Općina Lastovo, Croatia",
         description : "4,236 kilometers away", date :" Sep 1 – 7",
@@ -234,7 +234,7 @@ const mainData = [
 
     {
         id: 25,
-        category: "breakfast",
+        category: "pool",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/7_breakfast.webp?alt=media&token=6a596846-4ca5-46d2-b079-90c68f26a4c8",
         title : "Uusikaupunki, Finland",
         description : "6,227 kilometers away", date :" Aug 24 – 29",
@@ -243,7 +243,7 @@ const mainData = [
     },
     {
         id: 26,
-        category: "breakfast",
+        category: "pool",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/8_breakfast.webp?alt=media&token=937eed6d-9418-4ed8-afee-59df62bac937",
         title : "Gildeskål, Norway",
         description : "6,797 kilometers away", date :" Jul 24 – 29",
@@ -252,7 +252,7 @@ const mainData = [
     },
     {
         id: 27,
-        category: "breakfast",
+        category: "pool",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/9_breakfast.webp?alt=media&token=039beb74-583f-4058-9d74-564ec3450904",
         title : "Skålen, Sweden",
         description : "6,014 kilometers away", date :" Oct 1 – 8",
@@ -262,7 +262,7 @@ const mainData = [
     },
     {
         id: 28,
-        category: "caves",
+        category: "lakefront",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/1_caves.webp?alt=media&token=4c576019-d47e-4f5a-a9a7-92a87798150e",
         title : "Badachro, UK",
         description : "5,754 kilometers away", date :" Nov 12 – 17",
@@ -271,7 +271,7 @@ const mainData = [
     },
     {
         id: 29,
-        category: "caves",
+        category: "lakefront",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/2_caves.webp?alt=media&token=ea4b07cb-a04f-4435-97d7-e77e9cc6b911",
         title : "Sali, Croatia, Croatia",
         description : "4,316 kilometers away", date :" Sep 19 – 24",
@@ -280,7 +280,7 @@ const mainData = [
     },
     {
         id: 30,
-        category: "caves",
+        category: "lakefront",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/3_caves.webp?alt=media&token=cffc6b0a-486e-487a-aefd-b8de06e25e32",
         title : "Murter, Croatia",
         description : "4,323 kilometers away", date :" Oct 16 – 23",
@@ -292,7 +292,7 @@ const mainData = [
 
     {
         id: 31,
-        category: "caves",
+        category: "lakefront",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/4_caves.webp?alt=media&token=e0a56abd-17a6-4693-942b-99d526401d92",
         title : "Vis, Croatia",
         description : "4,262 kilometers away", date :" Jul 13 – 19",
@@ -300,7 +300,7 @@ const mainData = [
 },
 {
     id: 32,
-    category: "caves",
+    category: "lakefront",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/5_caves.webp?alt=media&token=4888dc8b-f5c1-45e0-ba22-d5704fc1640f",
     title : "Angra dos Reis, Brazil",
     description : "6,135 kilometers away", date :" Jul 22 – 27",
@@ -309,7 +309,7 @@ const mainData = [
 },
 {
     id: 33,
-    category: "caves",
+    category: "lakefront",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/6_caves.webp?alt=media&token=ab254058-d119-4889-9584-45e403405e61",
     title : "Općina Lastovo, Croatia",
     description : "4,236 kilometers away", date :" Sep 1 – 7",
@@ -321,7 +321,7 @@ const mainData = [
 
 {
     id: 34,
-    category: "caves",
+    category: "lakefront",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/7_caves.webp?alt=media&token=d795de71-1f2a-48b5-8e2a-62986908207f",
     title : "Uusikaupunki, Finland",
     description : "6,227 kilometers away", date :" Aug 24 – 29",
@@ -330,7 +330,7 @@ const mainData = [
 },
 {
     id: 35,
-    category: "caves",
+    category: "lakefront",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/8_caves.webp?alt=media&token=d0d2aec2-35cd-49c7-8545-7b03b0126de8",
     title : "Gildeskål, Norway",
     decription : "6,797 kilometers away", date :" Jul 24 – 29",
@@ -339,7 +339,7 @@ const mainData = [
 },
 {
     id: 36,
-    category: "caves",
+    category: "surffing",
         img : "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-d83ba.appspot.com/o/9_caves.webp?alt=media&token=2648e984-abad-4f46-8708-0c032587f63c",
     title : "Skålen, Sweden",
     description : "6,014 kilometers away", date :" Oct 1 – 8",

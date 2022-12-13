@@ -98,6 +98,9 @@ img{
 .navbar-icon{
   width: 25px;
 }
+.navbar-icon:hover{
+  cursor: pointer;
+}
 .navbar-text{
   padding-top:-120rem;
 }
@@ -110,7 +113,7 @@ img{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 80px 0 80px;
+  margin: 0 80px;
   column-gap: 20px;
   row-gap: 40px
 }
@@ -137,30 +140,14 @@ img{
 
 
 /* RESPONSIVE STYLES */
-@media screen and (max-width: 1240px) {
- 
-  .navbar-icon{
-    width: 20px;
-  }
- .main-section{
-  gap: 5px;
-  margin: 0 10px;
- }
- .card-image{
-  width: 230px;
- }
- p{
-    font-size: 15px;
-  }
-}
 
+/* || Tablet screen */
 @media screen and (max-width: 740px) {
   .main-section{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .logo, .header-text{
     display: none;
   }
@@ -187,9 +174,28 @@ img{
   .card-image{
     width: 80vw;
     height: 40vh;
-  }
-  
+  } 
   p, h3{
     font-size: 1rem;
   }
 }
+
+
+/* || Large laptop screen */
+@media screen and (max-width: 1440px) {
+  .navbar-icon{
+    width: 20px;
+  }
+ .main-section{
+  margin: 0 50px;
+  column-gap: 20px;
+  row-gap: 40px
+ }
+ .card-image{
+  width: 270px;
+ }
+ p{
+    font-size: 15px;
+  }
+}
+
