@@ -15,6 +15,11 @@ const NavData = [
         desc : "artic"
     },
     {
+        id : 1.2,
+        img : "artic.jpg",
+        desc : "artic"
+    },
+    {
         id : 3,
         img : "beach.jpg",
         desc : "beach"
