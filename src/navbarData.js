@@ -2,11 +2,11 @@ const NavData = [
     {
         id : 0,
         img : "a_frames.jpg",
-        desc : "aframes"
+        desc : "afres"
     },
     {
         id : 1,
-        img : "amazing_pool.jpg",
+        img : "amazing_p.jpg",
         desc : "Amazing pool"
     },
     {
